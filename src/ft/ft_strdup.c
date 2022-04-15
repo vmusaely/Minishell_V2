@@ -1,23 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vmusaely <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/04/15 15:37:30 by vmusaely          #+#    #+#             */
+/*   Updated: 2022/04/15 15:37:35 by vmusaely         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "minishell.h"
-
-// char	*ft_strdup(const char *s)
-// {
-// 	char	*ptr;
-// 	size_t	len;
-
-// 	len = ft_strlen(s) + 1;
-// 	ptr = malloc(len);
-// 	if (!ptr)
-// 		return (NULL);
-// 	if (s)
-// 	{
-// 		ft_memcpy(ptr, s, len);
-// 		ptr[len - 1] = '\0';
-// 	}
-// 	else
-// 		*ptr = '\0';
-// 	return (ptr);
-// }
 
 char					*ft_strdup(const char *s1)
 {

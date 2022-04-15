@@ -1,17 +1,16 @@
-#include "minishell.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vmusaely <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/04/15 15:36:59 by vmusaely          #+#    #+#             */
+/*   Updated: 2022/04/15 15:37:01 by vmusaely         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-// char	*ft_strchr(const char *str, int c)
-// {
-// 	while (*str)
-// 	{
-// 		if (*str == c)
-// 			return ((char *)str);
-// 		++str;
-// 	}
-// 	if (c == '\0')
-// 		return ((char *)str);
-// 	return (NULL);
-// }
+#include "minishell.h"
 
 char			*ft_strchr(const char *s, int c)
 {
